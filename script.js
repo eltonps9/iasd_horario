@@ -5,7 +5,7 @@ function horas(){
 	var seg = data.getSeconds();
 	var dia= data.getDate();
 	var mes= data.getMonth();
-	var ano= data.getFullYear();var day= data.getDay();
+	var day= data.getDay();
 	var body= document.querySelector('body');
 	var dataHTML =document.querySelector('#data');
 	var logo =document.querySelector('#logo');
