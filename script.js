@@ -12,7 +12,7 @@ function horas(){
 	var horario=document.querySelector("#hrs");
 	var meses = eval(mes+1);
 	
-	if(hr==11 && min>=45 && day==6){ horario.style.color='red'; }
+	if(hr==11 && min>=45){ horario.style.color='red'; }
 	
 	if(hr>=18 || hr<6 ){ 
 	body.style.backgroundColor='black';
