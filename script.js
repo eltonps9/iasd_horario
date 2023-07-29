@@ -30,7 +30,7 @@ function horas() {
     if (ano < 10) { ano = `0${ano}` }
 
     //horario mudara de cor no sábado depois das 11:45, e voltará ao normal depois de 12:00.
-    if (hr == 11 && min >= 45 && day == 6) { horario.style.color = 'red'; }
+    if (hr == 11 && min >= 35 && day == 6) { horario.style.color = 'red'; }
 
     // adicionando data e hora no html.
     horario.innerHTML = `${hr}:` + `${min}:` + `${seg}`;
