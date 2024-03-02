@@ -21,9 +21,19 @@ height:250px;
 display:flex;
 align-items:center;
 justify-content:space-evenly;
-background-color: white;
+font-size:180px;
+
+}
+#hora{
+width:30%;
+height:100%;
+display:flex;
+align-items:center;
+justify-content:center;
 color:black;
 font-size:180px;
+background-color: white;
+border-radius: 10px;
 }
 
 #logo{
