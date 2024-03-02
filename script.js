@@ -12,7 +12,11 @@ function horas() {
     var body = document.querySelector('body');
     var dataHTML = document.querySelector('#data');
     var logo = document.querySelector('#logo');
-    var horario = document.querySelector("#hrs");
+    var hora = document.querySelector("#hora");
+    var minuto = document.querySelector("#minuto");
+    var segundo = document.querySelector("#segundo");
+    
+   
 
     // depois das 18:00 a cor do fundo mudara e voltará ao normal depois das 6:00.
     if (hr >= 18 || hr < 6) {
@@ -33,7 +37,9 @@ function horas() {
     if (hr == 11 && min >= 35 && day == 6) { horario.style.color = 'red'; }
 
     // adicionando data e hora no html.
-    horario.innerHTML = `${hr}:` + `${min}`;
+    hora.innerHTML = `${hr}:`;
+    minuto.innerHTML = `${min}`;
+    segundo.innerHTML = `${seg}`;
     dataHTML.innerHTML = `${dia}/` + `${meses}/` + `${ano}`;
 }
 
