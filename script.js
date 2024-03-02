@@ -38,7 +38,7 @@ function horas() {
     if (hr == 11 && min >= 35 && day == 6) { horario.style.color = 'red'; }
 
     // adicionando data e hora no html.
-    hora.innerHTML = `${hr}:`;
+    hora.innerHTML = `${hr}`;
     minuto.innerHTML = `${min}`;
     segundo.innerHTML = `${seg}`;
     dataHTML.innerHTML = `${dia}/` + `${meses}/` + `${ano}`;
