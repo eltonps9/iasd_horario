@@ -15,6 +15,7 @@ function horas() {
     var hora = document.querySelector("#hora");
     var minuto = document.querySelector("#minuto");
     var segundo = document.querySelector("#segundo");
+    var horario = document.querySelectorAll(".horario");
     
    
 
