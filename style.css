@@ -20,7 +20,7 @@ width:800px;
 height:250px;
 display:flex;
 align-items:center;
-justify-content:center;
+justify-content:space-evenly;
 background-color: white;
 color:black;
 font-size:180px;
