@@ -24,7 +24,7 @@ justify-content:space-evenly;
 font-size:180px;
 
 }
-#hora{
+.horario{
 width:30%;
 height:100%;
 display:flex;
