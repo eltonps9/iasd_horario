@@ -41,7 +41,7 @@ function horas() {
     hora.innerHTML = `${hr}`;
     minuto.innerHTML = `${min}`;
     segundo.innerHTML = `${seg}`;
-    dataHTML.innerHTML = `${dia}/` + `${meses}/` + `${ano}`;
+    dataHTML.innerHTML = `${dia} /` + `${meses} /` + `${ano}`;
 }
 
 setInterval(horas, 1000);
