@@ -16,8 +16,7 @@ function horas() {
     var minuto = document.querySelector("#minuto");
     var segundo = document.querySelector("#segundo");
     var horario = document.querySelectorAll(".horario");
-    var diaFeira = document.querySelector(".diaFeria");
-    var escolaSab = document.querySelector(".mensagem");
+    
 
     // depois das 18:00 a cor do fundo mudara e voltará ao normal depois das 6:00.
     if (hr >= 18 || hr < 6) {
@@ -38,9 +37,9 @@ function horas() {
     if (hr == 11 && min >= 35 && day == 6) { horario.style.color = 'red'; }
 
     if(day == 6){
-        diaFeira.innerHTML = "Sábado";
+        document.querySelector(".diaFeria").innerHTML = "Sábado";
         if (hr == 9 && min >= 10 ) { 
-            escolaSab.innerHTML = "Lição da Escola Sabatina" 
+            document.querySelector(".mensagem").innerHTML = "Lição da Escola Sabatina"
         }
     }
                 
