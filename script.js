@@ -19,7 +19,8 @@ function horas() {
     var diaFeira = document.querySelector(".diaFeria");
     var EscolaSabatina = document.querySelector(".mensagem");
     
-   
+   diaFeira.innerHTML = "ok";
+EscolaSabatina.innerHTML= "sabatina";
 
     // depois das 18:00 a cor do fundo mudara e voltará ao normal depois das 6:00.
     if (hr >= 18 || hr < 6) {
