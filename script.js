@@ -17,10 +17,10 @@ function horas() {
     var segundo = document.querySelector("#segundo");
     var horario = document.querySelectorAll(".horario");
     var diaFeira = document.querySelector(".diaFeria");
-    var EscolaSabatina = document.querySelector(".mensagem");
+    var EscolaS = document.querySelector(".mensagem");
     
    diaFeira.innerHTML = "ok";
-EscolaSabatina.innerHTML= "sabatina";
+EscolaS.innerHTML= "sabatina";
 
     // depois das 18:00 a cor do fundo mudara e voltará ao normal depois das 6:00.
     if (hr >= 18 || hr < 6) {
@@ -62,7 +62,7 @@ EscolaSabatina.innerHTML= "sabatina";
                 break;
             case 6:
                 diaFeira.innerHTML = "Sábado";
-                if (hr == 9 && min >= 10 ) { EscolaSabatina.innerHTML = "Lição da Escola Sabatina" }
+                if (hr == 9 && min >= 10 ) { EscolaS.innerHTML = "Lição da Escola Sabatina" }
                 // if (hr == 10 && min >= 5 ) { playAudio.style.play; }
                 break;
         }
