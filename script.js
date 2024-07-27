@@ -39,7 +39,7 @@ function horas() {
     if(day == 6){
         document.querySelector(".diaFeria").innerHTML = "Sábado";
         if (hr == 9 && min >= 10 ) { 
-            document.querySelector(".mensagem").innerHTML = "Lição da Escola Sabatina"
+            document.querySelector(".mensagem").innerHTML = "Lição da Escola Sabatina";
         }
     }
                 
