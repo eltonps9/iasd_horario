@@ -18,9 +18,6 @@ function horas() {
     var horario = document.querySelectorAll(".horario");
     var diaFeira = document.querySelector(".diaFeria");
     var escolaSab = document.querySelector(".mensagem");
-    
-   diaFeira.innerHTML = "ok";
-    escolaSab.innerHTML= "sabatina";
 
     // depois das 18:00 a cor do fundo mudara e voltará ao normal depois das 6:00.
     if (hr >= 18 || hr < 6) {
