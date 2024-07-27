@@ -17,6 +17,7 @@ function horas() {
     var segundo = document.querySelector("#segundo");
     var horario = document.querySelectorAll(".horario");
     var diaFeira = document.querySelector(".diaFeria");
+    var EscolaSabatina = document.querySelector(".mensagem");
     
    
 
