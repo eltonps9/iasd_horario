@@ -37,32 +37,13 @@ function horas() {
     //horario mudara de cor no sábado depois das 11:45, e voltará ao normal depois de 12:00.
     if (hr == 11 && min >= 35 && day == 6) { horario.style.color = 'red'; }
 
-    // mostara o dia atual
-    switch (day) {
-            case 0:
-                diaFeira.innerHTML = "Domingo";
-                break;
-            case 1:
-                diaFeira.innerHTML = "Segunda-feira";
-                break;
-            case 2:
-                diaFeira.innerHTML = "Terça-feira";
-                break;
-            case 3:
-                diaFeira.innerHTML = "Quarta-feira";
-                break;
-            case 4:
-                diaFeira.innerHTML = "Quinta-feira";
-                break;
-            case 5:
-                diaFeira.innerHTML = "Sexta-feira";
-                break;
-            case 6:
-                diaFeira.innerHTML = "Sábado";
-                if (hr == 9 && min >= 10 ) { escolaSab.innerHTML = "Lição da Escola Sabatina" }
-                // if (hr == 10 && min >= 5 ) { playAudio.style.play; }
-                break;
+    if(day == 6){
+        diaFeira.innerHTML = "Sábado";
+        if (hr == 9 && min >= 10 ) { 
+            escolaSab.innerHTML = "Lição da Escola Sabatina" 
         }
+    }
+                
     // adicionando data e hora no html.
     hora.innerHTML = `${hr}`;
     minuto.innerHTML = `${min}`;
