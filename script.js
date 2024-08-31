@@ -35,9 +35,10 @@ function horas() {
 
     //horario mudara de cor no sábado depois das 11:45, e voltará ao normal depois de 12:00.
     if (hr == 11 && min >= 35 && day == 6) { horario.style.color = 'red'; }
-    if (day == 6 && hr == 9 && min >= 10 ) { document.querySelector(".mensagem").innerHTML = "Lição da Escola Sabatina"; }
+    
     if (day == 6) {
-      document.querySelector(".diaFeria").innerHTML = "Sábado";
+      document.querySelector(".diaFeira").innerHTML = "Sábado";
+        if (day == 6 && hr == 9 && min >= 10 ) { document.querySelector(".mensagem").innerHTML = "Lição da Escola Sabatina"; }
     }
     // adicionando data e hora no html.
     hora.innerHTML = `${hr}`;
