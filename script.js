@@ -38,7 +38,7 @@ function horas() {
     
     if (day == 6) {
       document.querySelector(".diaFeira").innerHTML = "Sábado";
-        if (day == 6 && hr == 9 && min >= 10 ) { document.querySelector(".mensagem").innerHTML = "Lição da Escola Sabatina"; }
+        if (hr == 9 && min >= 10 ) { document.querySelector(".mensagem").innerHTML = "Lição da Escola Sabatina"; }
     }
     // adicionando data e hora no html.
     hora.innerHTML = `${hr}`;
