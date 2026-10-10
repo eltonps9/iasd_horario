@@ -33,8 +33,8 @@ function horas() {
     if (meses < 10) { meses = `0${meses}` }
     if (ano < 10) { ano = `0${ano}` }
 
-    //horario mudara de cor no sábado depois das 11:45, e voltará ao normal depois de 12:00.
-    if (hr == 11 && min >= 35 && day == 6) { horario.style.color = 'red'; }
+    //horario mudara de cor no sábado depois das 11:30, e voltará ao normal depois de 12:00.
+    if (hr == 11 && min >= 30 && day == 6) { horario.style.color = 'red'; }
     
     if (day == 6) {
       document.querySelector(".diaFeira").innerHTML = "Sábado";
